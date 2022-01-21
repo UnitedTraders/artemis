@@ -1,0 +1,15 @@
+query big_query($quantity: Int!) {
+  charmander: pokemon(name: "Charmander") {
+    number
+    types
+  }
+  pokemons(first: $quantity) {
+    number
+    name
+    types
+    evolutions: evolutions {
+      number
+      name
+    }
+  }
+}

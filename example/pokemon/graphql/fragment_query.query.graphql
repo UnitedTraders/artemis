@@ -1,0 +1,11 @@
+query fragmentQuery($quantity: Int!) {
+  charmander: pokemon(name: "Charmander") {
+    ...PokemonParts
+  }
+  pokemons(first: $quantity) {
+    ...PokemonParts
+    evolutions: evolutions {
+      ...PokemonParts
+    }
+  }
+}

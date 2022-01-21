@@ -1,0 +1,6 @@
+query simple_query {
+  pokemon(name: "Charmander") {
+    number
+    types
+  }
+}
