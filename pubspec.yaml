@@ -1,5 +1,5 @@
 name: artemis
-version: 1.0.0
+version: 1.0.1
 
 description: Build dart types from GraphQL schemas and queries (using Introspection Query).
 
@@ -18,7 +18,7 @@ dependencies:
   gql_exec: 0.3.0
   gql_http_link: 0.4.0
   gql_link: 0.4.0
-  gql: ^0.13.1-alpha
+  gql: 0.13.1
   http: ^0.13.4
   json_annotation: ^4.4.0
   path: ^1.8.0
