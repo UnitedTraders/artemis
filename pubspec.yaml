@@ -1,10 +1,12 @@
 name: artemis
 version: 1.0.1
 
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
 description: Build dart types from GraphQL schemas and queries (using Introspection Query).
 
 environment:
-  sdk: ">=2.14.0 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   build_config: ^1.0.0
@@ -28,6 +30,8 @@ dependencies:
   graphql_code_builder_flutter:
     git:
       url: https://github.com/UnitedTraders/graphql_code_builder_flutter.git
+      ref: 1.0.3
+    #path: ../graphql_code_builder_flutter
 
 dev_dependencies:
   args: ^2.3.0

@@ -7,14 +7,14 @@ packages:
       name: _fe_analyzer_shared
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "31.0.0"
+    version: "38.0.0"
   analyzer:
     dependency: transitive
     description:
       name: analyzer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.8.0"
+    version: "3.4.1"
   args:
     dependency: "direct dev"
     description:
@@ -113,13 +113,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
-  cli_util:
-    dependency: transitive
-    description:
-      name: cli_util
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.3.5"
   code_builder:
     dependency: "direct main"
     description:
@@ -210,7 +203,7 @@ packages:
       name: gql
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.13.1-alpha+1635885531641"
+    version: "0.13.1"
   gql_dedupe_link:
     dependency: "direct main"
     description:
@@ -243,11 +236,11 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: HEAD
-      resolved-ref: "2fb44e90f65ea4ede230ffa1ec56711bfd06ac50"
+      ref: "1.0.3"
+      resolved-ref: d423eb0d2953aff8563af130160c486d8683b2dc
       url: "https://github.com/UnitedTraders/graphql_code_builder_flutter.git"
     source: git
-    version: "1.0.0"
+    version: "1.0.3"
   graphs:
     dependency: transitive
     description:
@@ -564,4 +557,4 @@ packages:
     source: hosted
     version: "3.1.0"
 sdks:
-  dart: ">=2.14.0 <3.0.0"
+  dart: ">=2.17.0 <3.0.0"
