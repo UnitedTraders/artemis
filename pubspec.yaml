@@ -1,5 +1,5 @@
 name: artemis
-version: 1.0.1
+version: 1.0.4
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
@@ -17,10 +17,10 @@ dependencies:
   equatable: ^2.0.3
   glob: ^2.0.2
   gql_dedupe_link: ^2.0.0
-  gql_exec: 0.3.0
-  gql_http_link: 0.4.0
-  gql_link: 0.4.0
-  gql: 0.13.1
+  gql_exec: ^0.4.3
+  gql_http_link: ^0.4.5
+  gql_link: ^0.5.1
+  gql: ^0.14.0
   http: ^0.13.4
   json_annotation: ^4.4.0
   path: ^1.8.0
@@ -30,8 +30,8 @@ dependencies:
   graphql_code_builder_flutter:
     git:
       url: https://github.com/UnitedTraders/graphql_code_builder_flutter.git
-      ref: 1.0.3
-    #path: ../graphql_code_builder_flutter
+      ref: 1.0.4
+#    path: ../graphql_code_builder_flutter
 
 dev_dependencies:
   args: ^2.3.0
