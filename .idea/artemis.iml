@@ -6,6 +6,18 @@
       <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/example/github/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/github/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/github/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/example/graphbrainz/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/graphbrainz/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/example/graphbrainz/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/hasura/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/hasura/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/hasura/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/example/pokemon/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/pokemon/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/pokemon/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
