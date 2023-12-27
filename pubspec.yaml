@@ -28,10 +28,10 @@ dependencies:
   source_gen: ^1.2.0
   yaml: ^3.1.0
   graphql_code_builder_flutter:
-#    git:
-#      url: https://github.com/UnitedTraders/graphql_code_builder_flutter.git
-#      ref: 1.0.5
-    path: ../graphql_code_builder_flutter
+    git:
+      url: https://github.com/UnitedTraders/graphql_code_builder_flutter.git
+      ref: 1.0.6
+#    path: ../graphql_code_builder_flutter
 
 dev_dependencies:
   args: ^2.3.0
